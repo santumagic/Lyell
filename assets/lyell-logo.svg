@@ -1,0 +1,8 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="60" cy="60" r="56" stroke="#222" stroke-width="4" fill="white"/>
+  <!-- Stylized jagged Mount Lyell silhouette with a snow patch -->
+  <polyline points="20,90 35,65 50,80 60,50 75,70 85,60 100,90" stroke="#222" stroke-width="4" fill="none"/>
+  <polygon points="60,50 67,65 75,70 70,60" fill="#e0e7ef"/>
+  <!-- Company name below -->
+  <text x="60" y="112" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#222" font-weight="bold">LYELL TECHNOLOGIES</text>
+</svg>

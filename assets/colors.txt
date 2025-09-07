@@ -1,0 +1,9 @@
+Based on the logo, the primary colors appear to be:
+
+Dark Teal/Blue (for main mountain lines/shadows): #2A5A6D
+
+Lighter Teal/Blue (for the circle/sky and mountain highlights): #7CC4C4 (This is an approximation of the very light blue-green in the background circle)
+
+White (for snow/highlights): #FFFFFF
+
+Black (for text "Lyell"): #000000
