@@ -6,7 +6,7 @@
   <title>LYELL TECHNOLOGIES LLC</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Roboto:wght@400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/main.css">
   <style>
     .hero.proarch-hero,
@@ -29,6 +29,13 @@
     /* Add padding to body to account for fixed header */
     body {
       padding-top: 80px; /* Adjust this value based on your header height */
+      font-family: 'Roboto', Arial, sans-serif; /* Set Roboto as default body font */
+    }
+    
+    /* Keep Poppins for headings with color #2A5A6D */
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Poppins', Arial, sans-serif;
+      color: #2A5A6D;
     }
   </style>
 </head>
@@ -46,12 +53,12 @@
     </nav>
   </header>
   <main>
-    <section class="hero proarch-hero" style="background: linear-gradient(90deg, #f8fafc 0%, #e9ecef 100%); padding: 64px 0 48px 0;">
+    <section class="hero proarch-hero" style="background: rgba(124, 196, 196, 0.1); padding: 24px 0 24px 0; box-shadow: none;">
       <div style="max-width: 900px; margin: 0 auto; text-align: center;">
-        <h1 style="font-family: 'Poppins', Arial, sans-serif; font-size: 3rem; font-weight: 800; color: #2A5A6D; margin-bottom: 24px;">
+        <h1 style="font-size: 3rem; font-weight: 800; margin-bottom: 24px;">
           Transforming Ideas Into Impactful Solutions
         </h1>
-        <p style="font-size: 1.25rem; color: #132a3e; margin-bottom: 32px;">
+        <p style="font-size: 1.25rem; color: #132a3e; margin-bottom: 32px; font-family: 'Roboto', Arial, sans-serif;">
           We help businesses innovate, modernize, and grow with technology solutions tailored to your needs.
         </p>
         <div style="margin-top: 64px;">
@@ -64,7 +71,7 @@
   </main>
   <footer class="site-footer" style="margin-top: 48px;">
     <hr style="border: none; border-top: 1px solid #e9ecef; margin: 0 0 24px 0;">
-    <div style="text-align: center; font-family: 'Poppins', Arial, sans-serif; font-size: 1rem; color: #132a3e;">
+    <div style="text-align: center; font-family: 'Roboto', Arial, sans-serif; font-size: 1rem; color: #132a3e;">
       &copy; 2025 | Lyell Technologies LLC. | All rights reserved.
     </div>
   </footer>
